@@ -1,72 +1,84 @@
-*{
-    font-family: "Inter";
+* {
+  font-family: "Inter";
 }
 /* font_size */
-.font_size__12{
-    font-size: clamp(11px, 0.8vw, 12px);
+.font_size__12 {
+  font-size: clamp(11px, 0.8vw, 12px);
 }
-.font_size_13{
-   font-size: clamp(12px, 0.9vw, 13px);   
+.font_size_13 {
+  font-size: clamp(12px, 0.9vw, 13px);
 }
-.font_size_16{
-    font-size: clamp(14px, 1.2vw, 16px);
+.font_size_16 {
+  font-size: clamp(14px, 1.2vw, 16px);
 }
-.font_size_18{
-    font-size: clamp(15px, 1.4vw, 18px);
+.font_size_18 {
+  font-size: clamp(15px, 1.4vw, 18px);
 }
-.font_size_20{
-    font-size: clamp(16px, 1.6vw, 20px);
+.font_size_20 {
+  font-size: clamp(16px, 1.6vw, 20px);
 }
-.font_size_24{
-    font-size: clamp(18px, 2vw, 24px);
+.font_size_24 {
+  font-size: clamp(18px, 2vw, 24px);
 }
-.font_size_32{
-    font-size: clamp(24px, 2.8vw, 32px);
+.font_size_32 {
+  font-size: clamp(24px, 2.8vw, 32px);
 }
-.font_size_40{
-    font-size: clamp(28px, 3.5vw, 40px);
+.font_size_40 {
+  font-size: clamp(28px, 3.5vw, 40px);
 }
-.font_size_48{
-    font-size: clamp(32px, 4.2vw, 48px);
+.font_size_48 {
+  font-size: clamp(32px, 4.2vw, 48px);
 }
-.font_size_50{
-    font-size: clamp(34px, 4.4vw, 50px);
+.font_size_50 {
+  font-size: clamp(34px, 4.4vw, 50px);
 }
-.font_size_64{
-    font-size: clamp(40px, 5.5vw, 64px);;
+.font_size_64 {
+  font-size: clamp(40px, 5.5vw, 64px);
 }
 
 /* font_weight */
-.font_weight_400{
-    font-weight: 400;
+.font_weight_400 {
+  font-weight: 400;
 }
-.font_weight_500{
-    font-weight: 500;
+.font_weight_500 {
+  font-weight: 500;
 }
-.font_weight_600{
-    font-weight: 600;
+.font_weight_600 {
+  font-weight: 600;
 }
 
 /* font_color */
-.font_color_white{
-    color: #FFFFFF;
+.font_color_white {
+  color: #ffffff;
 }
-.font_color_black{
-    color: #000000;
+.font_color_black {
+  color: #000000;
 }
 
-.image_wrapper img{
-    object-fit: contain;
-    width: 100%;
+.image-cover {
+  object-fit: cover;
+  width: 100%;
+}
+.image-contain {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.image-contain-without-width {
+  object-fit: contain;
+  height: 100%;
+}
+.image-cover-without-width {
+  object-fit: cover;
 }
 
 /* background_color */
-.background_color_grey{
-    background-color: #EEEEEE;
+.background_color_grey {
+  background-color: #eeeeee;
 }
-.background_color_black{
-    background-color: #0A0000;
+.background_color_black {
+  background-color: #0a0000;
 }
-.background_color_white{
-    background-color: #FFFFFF;
+.background_color_white {
+  background-color: #ffffff;
 }
