@@ -55,10 +55,10 @@
     color: #000000;
 }
 
-/* line_height */
-/* .line_height_75 {
-    line-height: clamp(50px, 5vw, 75px);
-  } */
+.image_wrapper img{
+    object-fit: contain;
+    width: 100%;
+}
 
 /* background_color */
 .background_color_grey{
