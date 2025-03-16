@@ -1,0 +1,25 @@
+
+.container_section_1{
+    max-width: 1900px;
+    padding:0% 5%;
+}
+.logo_image_background{
+    height: 15%;
+    width: 13%;
+    margin-top: -2%;
+}
+
+.object_contain{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+.object_cover{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.section_2{
+    background-image: url("./assets/checked_background.png");
+}
