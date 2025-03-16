@@ -39,12 +39,12 @@
 /* Custom style */
 
 .accordion-button::after {
-  background-image: url("assets/plus.jpg");
+  background-image: url("assets/plus.png");
   transform: scale(3) !important;
   padding: 10px;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("assets/minus.jpg");
+  background-image: url("assets/minus.png");
 }
 .accordion-item , .accordion-head {
   padding-bottom: 3%;
