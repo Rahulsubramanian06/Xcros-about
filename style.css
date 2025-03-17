@@ -1,39 +1,32 @@
-.footerBanner {
+.footerBanner{
   background-image: url("assets/footer_black_background.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   object-fit: cover;
 }
-.bg-grey {
-  background-color: #3e3e3e;
+.bg-grey{
+  background-color: #3E3E3E;
 }
-.bg-white {
+.bg-white{
   background-color: white;
 }
-.bg-section {
+.bg-section{
   background-color: #eeeeee;
 }
-.foot-Text {
-  padding-top: 10%;
-}
-.foot-text-bottom {
-  padding-bottom: 8%;
-}
-
 /* section 6 */
-.section6-BG {
+.section6-BG{
   background-image: url("assets/checked_background.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   object-fit: cover;
 }
-.section-size {
+.section-size{
   padding-top: 3%;
   padding-bottom: 8%;
 }
-/* section 5*/
+
 .accordion-header-5 .accordion-button::after {
   background-image: url("assets/plus.png");
   transform: scale(3) !important;
@@ -42,13 +35,12 @@
 .accordion-header-5 .accordion-button:not(.collapsed)::after {
   background-image: url("assets/minus.png");
 }
-.accordion-item-5,
-.accordion-head-5 {
+.accordion-item-5 , .accordion-head-5 {
   padding-bottom: 3%;
 }
 
-.accordion-container-5 {
-  width: 50%;
+.accordion-container-5{
+  width:50%;
 }
 swiper-container {
   width: 100%;
@@ -58,12 +50,14 @@ swiper-container {
 swiper-slide {
   text-align: center;
   font-size: 18px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 swiper-slide img {
+  
   display: block;
   width: 100%;
   height: 100%;
@@ -74,25 +68,33 @@ swiper-container {
   margin-left: auto;
   margin-right: auto;
 }
-.mobile-img-sm {
+
+
+.mobile-img-sm{ 
   margin-top: 5%;
-  height: 66%;
+  height:66%;
 }
-.text-decor-none {
+
+.text-decor-none{
   text-decoration: none;
 }
 
+.FooterBoy{
+  max-width:344px ;
+  max-height:426 ;
+}
 /* large screen */
 @media (max-width: 1024px) {
-  .accordion-container-5 {
-    width: 70%;
+  .accordion-container{
+    width:70%;
   }
 
 }
 
 /* extra small screen */
 @media (max-width: 480px) {
-  .accordion-container-5{
-    width: 80%;
+  .accordion-container{
+    width:80%;
   }
 }
+
