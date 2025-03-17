@@ -26,9 +26,7 @@
 .collapsed:focus {
   outline: none;
 }
-/* .accordion-button {
-      background-color: none;
-    } */
+
 .accordion-button:not(.collapsed) {
   color: none !important  ;
   background-color: none !important;
@@ -50,10 +48,7 @@
 .tech-card-box {
   height: 120px;
 }
-/* .section_3_card_scrolller {
-      height: 343px;
-      overflow-y: auto;
-    } */
+
 .section_3_card_scrolller::-webkit-scrollbar {
   background: #eeeeee;
   border-radius: 10px;
