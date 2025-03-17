@@ -23,6 +23,10 @@
 .section_2{
     background-image: url("./assets/checked_background.png");
 }
+
+.cursor_pointer{
+  cursor: pointer;
+}
 .collapsed:focus {
   outline: none;
 }
