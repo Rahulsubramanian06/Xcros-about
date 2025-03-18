@@ -18,6 +18,9 @@
   width: 100%;
   height: auto;
 }
+.border_radius_5 {
+  border-radius: 5px;
+}
 
 .section_2 {
   background-image: url("./assets/checked_background.png");
@@ -82,11 +85,18 @@
   overflow-y: auto;
   justify-content: center;
 }
+.button_outline_remover {
+  outline: none;
+  border: none;
+}
+.border_radius_30 {
+  border-radius: 30px;
+}
 .container {
   max-width: 1450px !important;
 }
 .accordion-button {
-  background-color: #eeeeee;
+  background-color: #eeeeee !important;
 }
 .accordion-body {
   background-color: #eeeeee;
@@ -95,6 +105,7 @@
   color: black;
   background-color: #eeeeee;
 }
+
 .default_padding_top1 {
   padding-top: 2%;
 }
