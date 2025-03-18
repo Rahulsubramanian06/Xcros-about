@@ -1,3 +1,9 @@
+/* font-inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  font-family: "Inter";
+}
+
 .container_section_1 {
   max-width: 1900px;
   padding: 0% 5%;
@@ -8,16 +14,6 @@
   margin-top: -2%;
 }
 
-.object_contain {
-  object-fit: contain;
-  width: 100%;
-  height: auto;
-}
-.object_cover {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
 .border_radius_5 {
   border-radius: 5px;
 }
