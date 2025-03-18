@@ -40,10 +40,10 @@
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: none;
+  border-color: none !important;
   outline: 0;
-  box-shadow: none;
-  background-color: none;
+  box-shadow: none !important;
+  background-color: none !important;
 }
 .section_3_background_color {
   background-color: #eeeeee;
