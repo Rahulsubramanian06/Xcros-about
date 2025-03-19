@@ -1,47 +1,59 @@
-.footerBanner{
-  background-image: url("assets/footer_black_background.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  object-fit: cover;
+.bg-grey {
+  background-color: #3e3e3e;
 }
-.bg-grey{
-  background-color: #3E3E3E;
-}
-.bg-white{
+.bg-white {
   background-color: white;
 }
-.bg-section{
+.bg-section {
   background-color: #eeeeee;
 }
+.text-decor-none {
+  text-decoration: none;
+}
+
 /* section 6 */
-.section6-BG{
+.section6-BG {
   background-image: url("assets/checked_background.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
-.section-size{
+.section-size {
   padding-top: 3%;
-  padding-bottom: 8%;
+  padding-bottom: 7%;
 }
+
+.mobile-img-sm {
+  margin-top: 5%;
+  height: 66%;
+}
+
+/* Footer */
+.footerBanner {
+  background-image: url("assets/footer_black_background.png");
+}
+.call_us {
+  max-width: 200px;
+}
+.Discuss {
+  max-width: 300px;
+}
+
+/* Accordion */
 
 .accordion-header-5 .accordion-button::after {
   background-image: url("assets/plus.png");
-  transform: scale(3) !important;
-  padding: 10px;
+  transform: scale(2.6) !important;
 }
 .accordion-header-5 .accordion-button:not(.collapsed)::after {
   background-image: url("assets/minus.png");
 }
-.accordion-item-5 , .accordion-head-5 {
+.accordion-item-5,
+.accordion-head-5 {
   padding-bottom: 3%;
 }
-
-.accordion-container-5{
-  width:50%;
+.accordion-container-5 {
+  width: 50%;
+  height: 400px;
 }
+/* Swiper JS */
 swiper-container {
   width: 100%;
   height: 100%;
@@ -50,14 +62,13 @@ swiper-container {
 swiper-slide {
   text-align: center;
   font-size: 18px;
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 swiper-slide img {
-  
   display: block;
   width: 100%;
   height: 100%;
@@ -69,32 +80,35 @@ swiper-container {
   margin-right: auto;
 }
 
-
-.mobile-img-sm{ 
-  margin-top: 5%;
-  height:66%;
+.mySwiper2 {
+  top: 1%;
 }
 
-.text-decor-none{
-  text-decoration: none;
-}
-
-.FooterBoy{
-  max-width:344px ;
-  max-height:426 ;
-}
 /* large screen */
 @media (max-width: 1024px) {
-  .accordion-container{
-    width:70%;
+  .accordion-container-5 {
+    width: 70%;
+    height: 400px;
   }
-
+  .mySwiper2 {
+    top: 1%;
+  }
 }
-
+/* Adjust for Small Screens (Mobiles) */
+@media (max-width: 768px) {
+  .mySwiper2 {
+    top: 2px;
+  }
+  .accordion-container-5 {
+    width: 80%;
+    height: 400px;
+  }
+}
 /* extra small screen */
 @media (max-width: 480px) {
-  .accordion-container{
-    width:80%;
+  .accordion-container-5 {
+    width: 80%;
+    height: 350px;
   }
-}
 
+}
