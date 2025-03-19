@@ -162,6 +162,7 @@
 /* section 6 */
 .section6-BG {
   background-image: url("assets/checked_background.png");
+  max-height: 560px;
 }
 .section-size {
   padding-top: 3%;
@@ -181,9 +182,11 @@
   max-width: 200px;
 }
 .Discuss {
-  max-width: 2px;
+  max-width: 310px;
 }
-
+.FooterBoy{
+  max-height: 90%;
+}
 /* Accordion */
 
 .accordion-header-5 .accordion-button::after {
@@ -197,10 +200,7 @@
 .accordion-head-5 {
   padding-bottom: 3%;
 }
-.accordion-container-5 {
-  width: 50%;
-  height: 400px;
-}
+
 /* Swiper JS */
 swiper-container {
   width: 100%;
@@ -231,10 +231,6 @@ swiper-container {
 
 /* large screen */
 @media (max-width: 1024px) {
-  .accordion-container-5 {
-    width: 60%;
-    height: 400px;
-  }
   .mySwiper2 {
     top: 1%;
   }
@@ -244,17 +240,9 @@ swiper-container {
   .mySwiper2 {
     top: 2px;
   }
-  .accordion-container-5 {
-    width: 80%;
-    height: 400px;
-  }
+
 }
-/* extra small screen */
-@media (max-width: 480px) {
-  .accordion-container-5 {
-    width: 80%;
-  }
-}
+
 .section_2{
     background-image: url("./assets/checked_background.png");
 }
