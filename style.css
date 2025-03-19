@@ -33,9 +33,11 @@
   max-width: 200px;
 }
 .Discuss {
-  max-width: 300px;
+  max-width: 310px;
 }
-
+.FooterBoy{
+  max-height: 90%;
+}
 /* Accordion */
 
 .accordion-header-5 .accordion-button::after {
@@ -51,7 +53,7 @@
 }
 .accordion-container-5 {
   width: 50%;
-  height: 400px;
+  height: 450px;
 }
 /* Swiper JS */
 swiper-container {
