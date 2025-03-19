@@ -1,8 +1,4 @@
-/* font-inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-* {
-  font-family: "Inter";
-}
+
 /* font_size */
 .font_size__12 {
   font-size: clamp(11px, 0.8vw, 12px);
@@ -75,21 +71,15 @@
 }
 
 /* object-fit */
-.image-cover {
-  object-fit: cover;
-  width: 100%;
-}
-.image-contain {
+.object_contain {
   object-fit: contain;
-  height: 100%;
   width: 100%;
-}
-.image-contain-without-width {
-  object-fit: contain;
   height: 100%;
 }
-.image-cover-without-width {
+.object_cover {
   object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 /* background_color */
