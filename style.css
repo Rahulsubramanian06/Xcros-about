@@ -158,6 +158,9 @@
 .text-decor-none {
   text-decoration: none;
 }
+.text-width{
+  max-width: 550px;
+}
 
 /* section 6 */
 .section6-BG {
@@ -212,6 +215,7 @@ swiper-slide {
   justify-content: center;
   align-items: center;
 }
+
 
 swiper-slide img {
   display: block;
